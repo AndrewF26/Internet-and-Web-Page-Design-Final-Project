@@ -1,0 +1,29 @@
+body { background-color: #228618; color: #EBD12A; font-size: 110%; }
+body ol { overflow: hidden; font-size: 125%; }
+body a:link { color: #EBD12A; }
+body a:visited { color: #0A4D03; }
+body a:hover { color: #E6DA89; }
+nav { background-color: #C18345; font-size: 150%; font-weight: bold; text-align: center; padding-top: 0.5em; 
+	padding-bottom: 0.5em; margin: 0; }
+nav a { text-decoration: none; }
+nav a:link { color: #D4BC39; }
+nav a:visited { color: #362311; }
+nav a:hover { color: #E6DA89; }
+#wrapper { background-color: #549E2E; margin-left: auto; margin-right: auto; width: 90%; padding: 2em; }
+#reason { display: flex; flex-direction: row; }
+#center { text-align: center; }
+section { padding-left: 0.5em; padding-right: 0.5em; }
+h1 { text-align: left; color: #D4BC39; }
+h2 { margin: 0; }
+table { min-width: 400px; border: 1px solid #362311; border-collapse: collapse; padding-bottom: 1em; }
+td, th { padding: 0.5em; border: 1px solid #362311; }
+tr:nth-of-type(odd) { background-color: #B57739; }
+tr:nth-of-type(even) { background-color: #228618; }
+form { margin: 0; display: flex; flex-flow: column nowrap; width: 60%; max-width: 40px; display: grid; grid-gap: 1em; 
+	 gap: 1em; grid-template-rows: auto; grid-template-columns: 9em 1fr; }
+input[type="submit"] { grid-column: 2 / 3; width: 9em; }
+input, datalist textarea { margin-bottom: .5em; margin-left: auto;}
+footer { text-align: center; font-style: italic; }
+footer a:link { color: #EBD12A; }
+footer a:visited { color: #0A4D03; }
+footer a:hover { color: #E6DA89; }
